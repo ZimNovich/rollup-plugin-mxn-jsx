@@ -1,0 +1,46 @@
+{
+    "name": "rollup-plugin-mxn-jsx",
+    "main": "rollup-plugin-mxn-jsx.js",
+    "description": "Rollup JSX plugin that transpiles JSX into JavaScript",
+    "version": "0.8.0",
+    "homepage": "https://github.com/ZimNovich/rollup-plugin-mxn-jsx",
+    "license": "MIT",
+    "author": {
+        "name": "Ilya Zimnovich",
+        "email": "zimnovich@gmail.com"
+    },
+    "keywords": [
+        "rollup-plugin",
+        "jsx",
+        "react",
+        "transpile",
+        "transpiler",
+        "transform",
+        "ast",
+        "vdom",
+        "javascript"
+    ],
+    "bundleDependencies": false,
+    "dependencies": {
+        "@jsxtools/glob": "^1.0.0",
+        "acorn-jsx": "^5.3.1",
+        "astring": "^1.4.3",
+        "magic-string": "^0.25.7",
+        "mxn-jsx-ast-transformer": "^0.8.3"
+    },
+    "deprecated": false,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ZimNovich/rollup-plugin-mxn-jsx"
+    },
+    "bugs": {
+        "url": "https://github.com/ZimNovich/rollup-plugin-mxn-jsx/issues"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "files": [
+        "node_modules",
+        "rollup-plugin-mxn-jsx.js"
+    ]
+}
