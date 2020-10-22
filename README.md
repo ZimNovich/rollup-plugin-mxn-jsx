@@ -7,7 +7,11 @@ Rollup JSX plugin that transpiles JSX into JavaScript
 
 This is a wrapper around [mxn-jsx-ast-transformer](https://github.com/ZimNovich/mxn-jsx-ast-transformer). Make sure to go check that out for options.
 
-Install it with `npm install rollup-plugin-mxn-jsx`
+## Install
+
+```
+$ npm install rollup-plugin-mxn-jsx
+```
 
 ## Usage
 
@@ -45,3 +49,8 @@ export default {
 ## License
 
 This module is released under the MIT license.
+
+## Related
+
+- [mxn-jsx-ast-transformer](https://github.com/ZimNovich/mxn-jsx-ast-transformer) - Transforms JSX AST into regular JS AST
+- [mxn-jsx-transpiler](https://github.com/ZimNovich/mxn-jsx-transpiler) - Transpiles JSX to regular JavaScript
