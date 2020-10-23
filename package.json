@@ -2,7 +2,7 @@
     "name": "rollup-plugin-mxn-jsx",
     "main": "rollup-plugin-mxn-jsx.js",
     "description": "Rollup JSX plugin that transpiles JSX into JavaScript",
-    "version": "0.8.1",
+    "version": "0.8.2",
     "homepage": "https://github.com/ZimNovich/rollup-plugin-mxn-jsx",
     "license": "MIT",
     "author": {
@@ -10,6 +10,7 @@
         "email": "zimnovich@gmail.com"
     },
     "keywords": [
+        "rollup",
         "rollup-plugin",
         "jsx",
         "react",
@@ -22,9 +23,9 @@
     ],
     "dependencies": {
         "@jsxtools/glob": "^1.0.0",
-        "acorn-jsx": "^5.3.1",
-        "astring": "^1.4.3",
-        "magic-string": "^0.25.7",
+        "acorn-jsx": "5.3.1",
+        "astring": "1.4.3",
+        "magic-string": "0.25.7",
         "mxn-jsx-ast-transformer": "^0.8.3"
     },
     "deprecated": false,
