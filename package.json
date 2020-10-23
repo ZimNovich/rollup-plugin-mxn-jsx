@@ -2,7 +2,7 @@
     "name": "rollup-plugin-mxn-jsx",
     "main": "rollup-plugin-mxn-jsx.js",
     "description": "Rollup JSX plugin that transpiles JSX into JavaScript",
-    "version": "0.8.0",
+    "version": "0.8.1",
     "homepage": "https://github.com/ZimNovich/rollup-plugin-mxn-jsx",
     "license": "MIT",
     "author": {
@@ -20,7 +20,6 @@
         "vdom",
         "javascript"
     ],
-    "bundleDependencies": false,
     "dependencies": {
         "@jsxtools/glob": "^1.0.0",
         "acorn-jsx": "^5.3.1",
